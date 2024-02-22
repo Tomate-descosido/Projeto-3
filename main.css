@@ -2,11 +2,6 @@ body{
     font-family: Roboto,sans-serif;
 }
 
-.navbar,
-#edgerruners{
-    background-color: black;
-}
-
 .navbar .container{
     max-width: fit-content;
 }
@@ -22,19 +17,29 @@ body{
 #cabecalho .nav .nav-link, 
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-link:hover {
     color: rgb(162, 255, 0);
 }
 
 #cabecalho .nav .nav-link.active,
-#edgerruners .nav .nav-link.active{
+#edgerunners .nav .nav-link.active,
+#mais .nav .nav-link.active,
+.yellow-black{
     background-color: #fcee0a;
     color: black;
 }
 
-.navbar-toggler,
+.yellow-black{
+    background-color: #fcee0a;
+    color: black;
+}
+
 .back-yellow{
     background-color: #fcee0a;
+}
+
+.back-black{
+    background-color: black;
 }
 
 .section-title{
@@ -49,19 +54,6 @@ body{
 
 .text-colored{
     color: rgb(162, 255, 0);
-}
-
-#sobre{
-    background-color: #fcee0a;
-}
-
-#fale-conosco{
-    background-color: black;
-}
-
-#fale-conosco button{
-    background-color: #fcee0a;
-    color: black;
 }
 
 .social-links li{

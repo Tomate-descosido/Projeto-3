@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+    <header class="navbar navbar-expand-lg sticky-top pt-4 back-black" id="cabecalho">
         <div class="container">
             <img src="https://www.cyberpunk.net/build/images/edgerunners/logo-edgerunners@1x-56e5ac9c.png" alt="">
         </div>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <button class="navbar-toggler back-yellow" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
             <i class="bi bi-body-text"></i>
         </button>
         <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
@@ -45,7 +45,7 @@
         </nav>
     </header>
     <div data-bs-spy="scroll" data-bs-smooth-scroll="true" data-bs-target="cabecalho">
-        <section id="sobre">
+        <section id="sobre" class="back-yellow">
             <div class="carousel slide container" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </section>
-        <section id="edgerruners" class="pt-5 pb-5">
+        <section id="edgerunners" class="pt-5 pb-5 back-black">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center mb-5">
@@ -151,29 +151,29 @@
                 </div>
             </div>
         </section>
-        <section id="mais" class="pt-5 pb-5">
+        <section id="mais" class="pt-5 pb-5 back-yellow">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center mb-5">
-                        <span class="text-colored">Mais</span>
+                        <span class="text-colored-1">Mais</span>
                     </h2>
                 </div>
                 <div class="row">
-                    <aside class="col-md-2">
-                        <nav class="nav nav-pills flex-column nav-cardapio">
+                    <aside class="col-md-2 back-black me-3">
+                        <nav class="nav nav-pills flex-column nav-cardapio mt-2">
                             <button type="button" data-bs-toggle="tab" data-bs-target="#onde-assistir" class="fw-bold text-start nav-link text-colored active">Onde assistir</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#conceito" class="fw-bold text-start nav-link text-colored">Conceito</button>
                             <button type="button" data-bs-toggle="tab" data-bs-target="#outras-midias" class="fw-bold text-start nav-link text-colored">Outras mídias</button>
                         </nav>
                     </aside>
-                    <div class="col-md-10">
+                    <div class="col-md-9 back-black">
                         <div class="tab-content">
                             <div id="onde-assistir" class="tab-pane active">
                                 <div class="row">
-                                    <div class="back-yellow pt-3 border border-success">
+                                    <div class="pt-3 border border-success">
                                         <img class="d-block w-100" src="./imagem/Captura de tela 2024-02-22 104642.png" alt="">
-                                        <h5 class="text-colored fw-bold mt-2">Netflix</h5>
-                                        <p>
+                                        <h5 class="text-colored section-title fw-bold mt-2">Netflix</h5>
+                                        <p class="text-colored">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         </p>
                                     </div>
@@ -190,7 +190,7 @@
                 </div>
             </div>
         </section>
-        <section id="fale-conosco" class="pt-5 pb-5">
+        <section id="fale-conosco" class="pt-5 pb-5 back-black">
             <div class="container">
                 <div class="row">
                     <h2 class="section-title text-center text-colored">Fale conosco</h2>
@@ -210,7 +210,7 @@
                                 <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem</label>
                                 <textarea id="mensagem" class="form-control" required></textarea>
                             </div>
-                            <button type="submit" class="btn fw-bold">Enviar</button>
+                            <button type="submit" class="btn fw-bold yellow-black">Enviar</button>
                         </form>
                     </div>
                     <div class="col-md-5">
