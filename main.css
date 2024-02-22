@@ -2,7 +2,8 @@ body{
     font-family: Roboto,sans-serif;
 }
 
-.navbar{
+.navbar,
+#edgerruners{
     background-color: black;
 }
 
@@ -25,12 +26,14 @@ body{
     color: rgb(162, 255, 0);
 }
 
-#cabecalho .nav .nav-link.active{
+#cabecalho .nav .nav-link.active,
+#edgerruners .nav .nav-link.active{
     background-color: #fcee0a;
     color: black;
 }
 
-.navbar-toggler{
+.navbar-toggler,
+.back-yellow{
     background-color: #fcee0a;
 }
 
